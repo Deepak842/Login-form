@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        
+    </head>
+    
+  <body>
+      
+      <div id="box">
+          
+          <div id="main"></div>
+          
+          <div id="loginform">
+              <h1>LOGIN</h1>
+              <input type="email" placeholder="Email"><br>
+              <input type="password" placeholder="Password"><br>
+              <button>LOGIN</button>
+              <a href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+              <a href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+          </div>
+          
+          <div id="signupform">
+              
+              <h1>SIGN UP</h1>
+              <input type="text" placeholder="Full Name"><br>
+              <input type="email" placeholder="Email"><br>
+              <input type="password" placeholder="Password"><br>
+              <button>SIGN UP</button>
+          </div>
+          
+          <div id="login_msg">Have an account?</div>
+          <div id="signup_msg">Don't have an account?</div>
+          
+          <button id="login_btn">LOGIN</button>
+          <button id="signup_btn">SIGN UP</button>
+            
+        
+     </div>
+      
+      
+      
+<script src="https://www.gstatic.com/firebasejs/4.8.2/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDRpnKciGd6Xp_y0kr_1aX04okQY8lhpXc",
+    authDomain: "e-commerce-3c95a.firebaseapp.com",
+    databaseURL: "https://e-commerce-3c95a.firebaseio.com",
+    projectId: "e-commerce-3c95a",
+    storageBucket: "",
+    messagingSenderId: "100246730737"
+  };
+  firebase.initializeApp(config);
+</script>
+    
+      
+        <script src="https://code.jquery.com/jquery-3.2.1.js"></script>  
+        <script src="js/JQUERY.js"></script>
+   </body>
+    
+</html>
